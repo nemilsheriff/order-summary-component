@@ -1,0 +1,96 @@
+@import 'breakpoints';
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+$very-pale-blue: hsl(225, 100%, 98%);
+$desaturated-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+
+body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 1rem;
+      font-family: 'Red Hat Display', sans-serif;
+      background-color: $pale-blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+
+      .container {
+            background-color: white;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            border-radius: 2rem;
+            width: 350px;
+
+            .hero-image {
+                  width: 100%;
+                  border-top-left-radius: 2rem;
+                  border-top-right-radius: 2rem;
+            }
+
+            .heading {
+                  font-weight: 900;
+                  font-size: 1.5rem;
+                  margin: 1.5rem 0 1rem 0;
+            }
+
+            .text {
+                  font-weight: 500;
+                  color: $desaturated-blue;
+                  padding: 0rem 3rem 1.5rem 3rem;
+                  line-height: 1.75;
+            }
+
+            .plan {
+                  display: flex;
+                  background-color: $very-pale-blue;
+                  align-items: center;
+                  justify-content: space-evenly;
+                  margin: 0rem 2rem;
+                  padding: 1rem 0;
+                  border-radius: 1rem;
+
+                  .plan-details-name {
+                        font-weight: 700;
+                  }
+
+                  .plan-details-cost {
+                        color: $desaturated-blue;
+                  }
+
+                  .plan-change-button {
+                        font-weight: 700;
+                        font-size: 0.8rem;
+                  }
+            }
+
+            .buttons {
+                  margin-top: 2rem;
+                  margin-bottom: 2rem;
+
+                  .payment-button {
+                        background-color: $bright-blue;
+                        color: white;
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                  }
+
+                  .cancel-button {
+                        color: $desaturated-blue;
+                  }
+
+                  a {
+                        display: block;
+                        text-decoration: none;
+                        margin: 1rem 2rem;
+                        border-radius: 1rem;
+                        padding: 1rem 0;
+                        font-weight: 700;
+                  }
+            }
+      }
+}

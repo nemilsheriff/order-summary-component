@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225deg, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+body .container {
+  background-color: white;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 2rem;
+  width: 350px;
+}
+body .container .hero-image {
+  width: 100%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+body .container .heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1rem 0;
+}
+body .container .text {
+  font-weight: 500;
+  color: hsl(224deg, 23%, 55%);
+  padding: 0rem 3rem 1.5rem 3rem;
+  line-height: 1.75;
+}
+body .container .plan {
+  display: flex;
+  background-color: hsl(225deg, 100%, 98%);
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0rem 2rem;
+  padding: 1rem 0;
+  border-radius: 1rem;
+}
+body .container .plan .plan-details-name {
+  font-weight: 700;
+}
+body .container .plan .plan-details-cost {
+  color: hsl(224deg, 23%, 55%);
+}
+body .container .plan .plan-change-button {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+body .container .buttons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+body .container .buttons .payment-button {
+  background-color: hsl(245deg, 75%, 52%);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+body .container .buttons .cancel-button {
+  color: hsl(224deg, 23%, 55%);
+}
+body .container .buttons a {
+  display: block;
+  text-decoration: none;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
+  padding: 1rem 0;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
